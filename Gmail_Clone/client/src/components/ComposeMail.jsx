@@ -91,7 +91,7 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
             body : data.body,
             date: new Date(),
             image: '',
-            name: 'Varinderpal singh',
+            name: 'Rahul',
             starred: false,
             type: 'sent'
         }
