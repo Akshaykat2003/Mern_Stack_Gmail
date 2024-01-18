@@ -14,6 +14,7 @@ const dialogStyle = {
     borderRadius: '10px 10px 0 0',
 }
 
+
 const Header = styled(Box)`
     display: flex;
     justify-content: space-between;
@@ -58,7 +59,7 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
     const saveDraftService = useApi(API_URLS.saveDraftEmails);
 
     const config = {
-        Username: 'varinderpalsingh@yopmail.com',
+        Username: 'jaguar111@.com',
         Password: 'F1FE1DE5F6E0992A7BD8D871C4523970C8AB',
         Host: 'smtp.elasticemail.com',
         Port: 2525,
