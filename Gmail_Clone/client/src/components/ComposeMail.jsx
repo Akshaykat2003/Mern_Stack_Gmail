@@ -76,7 +76,7 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
             window.Email.send({
                 ...config,
                 To : data.to,
-                From : "varinderpal1521.be21@chitkara.edu.in",
+                From : 'jaguar111@.com',
                 Subject : data.subject,
                 Body : data.body
             }).then(
@@ -86,7 +86,7 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
 
         const payload = {
             to : data.to,
-            from : "varinderpal1521.be21@chitkara.edu.in",
+            from : 'jaguar111@.com',
             subject : data.subject,
             body : data.body,
             date: new Date(),
@@ -111,12 +111,12 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
 
         const payload = {
             to : data.to,
-            from : "varinderpal1521.be21@chitkara.edu.in",
+            from : 'jaguar111@.com',
             subject : data.subject,
             body : data.body,
             date: new Date(),
             image: '',
-            name: 'Varinderpal singh',
+            name: 'Rahul',
             starred: false,
             type: 'drafts'
         }
